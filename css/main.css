@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.ds-image{
+    display: none;
+}
+
+.check-flex{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(67,65,67,.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    background-color: green;
+}
